@@ -78,13 +78,13 @@ AZURE_TTS_ENDPOINT=<azure_tts_endpoint>
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd pdf-intelligence-system
+   git clone https://github.com/Aayush-Bhargav/Adobe-Hackathon.git
+   cd finale
    ```
 
 2. **Build the Docker image**
    ```bash
-   docker build --platform linux/amd64 -t pdf-intel-system .
+   docker build --platform linux/amd64 -t yourimageidentifier .
    ```
 
 3. **Run the application**
@@ -97,7 +97,7 @@ AZURE_TTS_ENDPOINT=<azure_tts_endpoint>
      -e TTS_PROVIDER=azure \
      -e AZURE_TTS_KEY=<TTS_KEY> \
      -e AZURE_TTS_ENDPOINT=<TTS_ENDPOINT> \
-     -p 8080:8080 pdf-intel-system
+     -p 8080:8080 -p 5001:5001 yourimageidentifier
    ```
 
 4. **Access the application**
@@ -107,7 +107,6 @@ AZURE_TTS_ENDPOINT=<azure_tts_endpoint>
 
 #### Frontend
 ```bash
-cd frontend
 npm install
 npm run dev
 ```
