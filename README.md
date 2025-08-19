@@ -79,6 +79,7 @@ AZURE_TTS_ENDPOINT=<azure_tts_endpoint>
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Aayush-Bhargav/Adobe-Hackathon.git
+   cd Adobe-Hackathon
    cd finale
    ```
 
