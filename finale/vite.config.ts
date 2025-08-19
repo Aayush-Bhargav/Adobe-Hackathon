@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: 'localhost', // ✅ allows external access
-    port: 5173,
+    port: 8080,
     open: true,
     allowedHosts: ['localhost'], // ✅ add your ngrok host here
   },
