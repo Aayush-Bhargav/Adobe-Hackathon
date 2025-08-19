@@ -23,4 +23,5 @@ sentence-transformers==2.6.1
 transformers==4.41.2
 torch==2.3.0+cpu
 google-generativeai
+generate_audio
 pydub
